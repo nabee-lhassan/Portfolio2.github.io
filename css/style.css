@@ -340,13 +340,30 @@ nav button {
 position: relative;
 margin: 6% 7%;
 /* border: 4px solid #00d0ff; */
-padding: 0% 0%;
+background-image: url(../image/screen.png);
+background-size: 115% 149%;
+background-position: center center;
+padding: 3% 0%;
+
 border-radius: 5px;
-box-shadow: 1px 1px 30px 1px #00d0ff;
+height: 250px;
+}
+
+.div-portfolio-mobile  {
+position: relative;
+margin: 6% 7%;
+/* border: 4px solid #00d0ff; */
+background-image: url(../image/mobile.png);
+background-size: 115% 149%;
+background-position: center center;
+padding: 3% 0%;
+
+border-radius: 5px;
+height: 250px;
 }
 
 .projects-sec .div-portfolio-card .port-btn {
-    background-image: linear-gradient(45deg, #0339fb, #00d0ff);
+    /* background-image: linear-gradient(45deg, #0339fb, #00d0ff); */
     text-align: center;
     
     color: white;
@@ -411,7 +428,22 @@ background-image: url(../image/sociaomed.png);
     
     transition: 5.5s;
     
-background-size: cover;
+background-size: 95%;
+background-repeat: no-repeat;
+
+background-position: center top;   
+ 
+}
+
+.projects-sec .div-portfolio-card .port-image-mobile {
+    width: 100%;
+    height: 192px;
+    
+    transition: 5.5s;
+    
+background-size: 95%;
+background-repeat: no-repeat;
+
 background-position: center top;   
  
 }
